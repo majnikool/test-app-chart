@@ -15,7 +15,7 @@ image:
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: "testapp"
+fullnameOverride: ""
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -82,3 +82,7 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+
+postgresql-ha:
+  fullnameOverride: "{{ .Release.Name }}-postgresql-ha"
