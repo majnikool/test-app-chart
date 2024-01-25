@@ -3,6 +3,20 @@ entries:
   test-app:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2024-01-25T02:19:57.899304139Z"
+    dependencies:
+    - name: postgresql-ha
+      repository: file://../postgresql-ha
+      version: 8.1.1
+    description: test-app chart
+    digest: 5e2221968a752a7a17aa4f4b16fc6d000978e91a6aa14f0a595432cc65ca8d3d
+    name: test-app
+    type: application
+    urls:
+    - https://github.com/majnikool/test-app-chart/releases/download/test-app-0.1.5/test-app-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2024-01-25T01:43:49.265199904Z"
     dependencies:
     - name: postgresql-ha
@@ -43,4 +57,4 @@ entries:
     urls:
     - https://github.com/majnikool/test-app-chart/releases/download/test-app-0.1.2/test-app-0.1.2.tgz
     version: 0.1.2
-generated: "2024-01-25T01:43:49.265211717Z"
+generated: "2024-01-25T02:19:57.899318836Z"
